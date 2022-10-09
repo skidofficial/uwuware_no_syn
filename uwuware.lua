@@ -1608,7 +1608,7 @@ local UIToggle
 local UnlockMouse
 function library:Init()
 	self.base = self.base or self:Create("ScreenGui")
-	end
+	
 	self.base.Parent = game:GetService"CoreGui"
 	self.base.ResetOnSpawn = false
 	self.base.Name = "uwuware"
